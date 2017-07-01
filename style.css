@@ -1,0 +1,233 @@
+
+body{
+  
+    margin: 0 ;
+    padding: 0;
+}
+
+/*********************************************************************************************************
+ Header section
+ *********************************************************************************************************/ 
+
+header{
+     width:100%;
+     height: 800px;
+     margin: 0;
+     padding: 0;
+     background: #999;
+     background: url(images/railway.jpg) center center;
+     background-size: cover;
+
+
+}
+
+/*********************************************************************************************************
+  Nav-section
+ *********************************************************************************************************/ 
+
+nav{
+
+    float: right;
+    margin: 30px 30px 0 0;
+    -webkit-animation:mymove 5s infinite;
+    animation: mymove 5s infinite;
+
+}
+
+ a{
+
+     display: inline-block;
+     font-weight: bold;
+     margin-left: 20px;
+     font-weight:100;
+     text-transform: uppercase;
+     font-size: 18px;
+     color: #C0C0C0;
+     text-decoration: none;
+}
+ a:hover{
+
+     color:#FFFFFF;
+     text-decoration: none;
+     
+ }
+
+h1{
+
+     font-size: 72px;
+     text-align: center;
+     font-family:  'open-sans',sans-serif;
+     font-weight: 300px;
+     color: #fff;
+     text-transform: uppercase;
+     letter-spacing: 0.08em;
+     clear: both;
+     padding-top: 210px;
+}
+
+span{
+   display: inline-block;
+   padding: 10px  10px;
+   border: 5px solid white;
+}
+
+  
+
+.main-section{
+    background: #AA0114;
+    margin: 0 ;
+   
+
+}
+
+
+.kicker{
+
+     text-align: center;
+     color: #fff;
+     font-size: 18px;
+}
+/*********************************************************************************************************
+About section
+**********************************************************************************************************/
+.about-section{
+  width: 100%;
+  background: #18bc9c;
+
+}
+
+ .row{
+   
+   margin: 0 auto;
+   text-align: center;
+   padding-top:30px;
+ }
+
+ h2{
+  font-size: 4em;
+  font-weight:700;
+  text-transform: uppercase;
+  color:#fff;
+  letter-spacing:0.1em;
+
+ }
+ p{
+   color:#fff;
+ }
+ /****************************************************************************************************
+ skill-section
+ *****************************************************************************************************/
+ .section{
+    background: #C0C0C0;
+    
+    height: 500px;
+ }
+
+ h5{
+  padding-top: 30px;
+  padding-bottom: 30px;
+   font-size:4em;
+   font-weight:700;
+   text-transform: uppercase;
+   color:#fff;
+   letter-spacing: .1em;
+ }
+ .progress{
+   
+    height: 40px;
+
+ }
+
+ 
+ 
+ /***************************************************************************************************
+   Work section
+ ****************************************************************************************************/
+ .work{
+   background:#fff;
+   height: 800px;
+
+ }  
+
+h6{
+ color: #95A3A3;
+ line-height: 1.4em;
+ font-size:4em;
+ letter-spacing: 0.3em;
+ font-weight: 700;
+ }
+
+ .thumbnail{
+    border:0;
+    margin: 0 auto;
+ }
+ .thumbnail{
+    width: 200px;
+    height:200px;
+    margin-top: 10px;
+    overflow: hidden;
+ }
+
+ .thumbnail img{
+    width:100%;
+    height: 100%;
+ }
+ .img-caption{
+    width:192px;
+    height:200px;
+    background:#000;
+    opacity:0.6;
+    transition: transform 300ms;
+    position: relative;
+ }
+
+ .thumbnail:hover .img-caption{
+    transform: translateY(-200px);
+
+ }
+.caption-content{
+   width:100%;
+   height:100%;
+   background:#000;
+   color:#fff;
+   padding-top: 70px;
+   text-transform: uppercase;
+   font-size: 1em;
+   letter-spacing: 0.2em;
+   font-weight:bold;
+   position: absolute;
+   display:none;
+}
+
+.thumbnail:hover .caption-content{
+    display: block;
+}
+
+.footer{
+   padding-top:10px;
+   padding-bottom:10px;
+   background:#666666;
+  } 
+
+.footer-text{
+
+   font-size: 22px;
+
+}
+
+.footer a{
+   font-size: 20px;
+   text-align: center;
+   padding-bottom: 10px;
+   display: inline;
+}
+
+.footer-text a{
+    text-decoration: none;
+}
+
+.modal-text{
+   color:#000;
+}
+
+
